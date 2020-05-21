@@ -1,0 +1,13 @@
+program Project1;
+
+uses
+  Forms,
+  TI3 in 'TI3.pas' {frmMain};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmMain, frmMain);
+  Application.Run;
+end.
